@@ -1,0 +1,23 @@
+{
+    "name": "erekle/algo-tasks",
+    "description": "A collection of PHP functions to solve various tasks.",
+    "require": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Erekle\\AlgoTasks\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "erekle",
+            "email": "erekle.k1@gmial.com"
+        }
+    ]
+}

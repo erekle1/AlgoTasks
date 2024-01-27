@@ -1,0 +1,15 @@
+/vendor/
+/composer.lock
+/node_modules/
+/.env
+/.idea/                  # PhpStorm project settings
+*.log
+*.cache
+.DS_Store
+/build/
+/coverage/
+/phpunit.xml
+
+# PHPStorm-specific
+/.idea/                  # Ignores PhpStorm project files
+*.iml                    # Ignores IntelliJ module files
